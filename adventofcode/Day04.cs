@@ -41,7 +41,8 @@ namespace adventofcode
     {
         public static List<Passport> Parse(List<string> input)
         {
-            var data = new List<Passport>(){
+            var data = new List<Passport>()
+            {
                 new Passport()
             };
 
