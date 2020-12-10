@@ -83,7 +83,7 @@ namespace adventofcode
 
         static int V = 100;
  
-        // Method slightly butcherd, but stolen from hwre: https://www.geeksforgeeks.org/count-number-edges-undirected-graph/
+        // Method slightly butcherd, but stolen from hwre: https://www.geeksforgeeks.org/count-possible-paths-source-destination-exactly-k-edges/
         private long CountWalks(int[, ] graph, int start, int end, int maximumEdges)
         {
             // Table to be filled up using DP. The
